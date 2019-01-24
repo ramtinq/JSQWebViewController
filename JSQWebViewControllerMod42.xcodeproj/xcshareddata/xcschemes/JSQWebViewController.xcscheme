@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "88AEBB071BADF48300923E82"
-               BuildableName = "JSQWebViewController.framework"
-               BlueprintName = "JSQWebViewController"
-               ReferencedContainer = "container:JSQWebViewController.xcodeproj">
+               BuildableName = "JSQWebViewControllerMod42.framework"
+               BlueprintName = "JSQWebViewControllerMod42"
+               ReferencedContainer = "container:JSQWebViewControllerMod42.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -26,17 +26,17 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      codeCoverageEnabled = "YES">
+      codeCoverageEnabled = "YES"
+      shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "88AEBB111BADF48300923E82"
-               BuildableName = "JSQWebViewControllerTests.xctest"
-               BlueprintName = "JSQWebViewControllerTests"
-               ReferencedContainer = "container:JSQWebViewController.xcodeproj">
+               BuildableName = "JSQWebViewControllerMod42Tests.xctest"
+               BlueprintName = "JSQWebViewControllerMod42Tests"
+               ReferencedContainer = "container:JSQWebViewControllerMod42.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,9 +44,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "88AEBB071BADF48300923E82"
-            BuildableName = "JSQWebViewController.framework"
-            BlueprintName = "JSQWebViewController"
-            ReferencedContainer = "container:JSQWebViewController.xcodeproj">
+            BuildableName = "JSQWebViewControllerMod42.framework"
+            BlueprintName = "JSQWebViewControllerMod42"
+            ReferencedContainer = "container:JSQWebViewControllerMod42.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "88AEBB071BADF48300923E82"
-            BuildableName = "JSQWebViewController.framework"
-            BlueprintName = "JSQWebViewController"
-            ReferencedContainer = "container:JSQWebViewController.xcodeproj">
+            BuildableName = "JSQWebViewControllerMod42.framework"
+            BlueprintName = "JSQWebViewControllerMod42"
+            ReferencedContainer = "container:JSQWebViewControllerMod42.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -84,9 +84,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "88AEBB071BADF48300923E82"
-            BuildableName = "JSQWebViewController.framework"
-            BlueprintName = "JSQWebViewController"
-            ReferencedContainer = "container:JSQWebViewController.xcodeproj">
+            BuildableName = "JSQWebViewControllerMod42.framework"
+            BlueprintName = "JSQWebViewControllerMod42"
+            ReferencedContainer = "container:JSQWebViewControllerMod42.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

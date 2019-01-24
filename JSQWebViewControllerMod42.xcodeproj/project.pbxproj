@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		88AEBB131BADF48300923E82 /* JSQWebViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88AEBB081BADF48300923E82 /* JSQWebViewController.framework */; };
+		88AEBB131BADF48300923E82 /* JSQWebViewControllerMod42.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88AEBB081BADF48300923E82 /* JSQWebViewControllerMod42.framework */; };
 		88E3AF701CB62C0100F1E775 /* JSQWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 88E3AF6B1CB62BD700F1E775 /* JSQWebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		88E3AF711CB62C0700F1E775 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E3AF6C1CB62BD700F1E775 /* WebViewController.swift */; };
 		88E3AF741CB62C3000F1E775 /* JSQWebViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E3AF6F1CB62BD700F1E775 /* JSQWebViewControllerTests.swift */; };
@@ -24,8 +24,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		88AEBB081BADF48300923E82 /* JSQWebViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSQWebViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		88AEBB121BADF48300923E82 /* JSQWebViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSQWebViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88AEBB081BADF48300923E82 /* JSQWebViewControllerMod42.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSQWebViewControllerMod42.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88AEBB121BADF48300923E82 /* JSQWebViewControllerMod42Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSQWebViewControllerMod42Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88E3AF6A1CB62BD700F1E775 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88E3AF6B1CB62BD700F1E775 /* JSQWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSQWebViewController.h; sourceTree = "<group>"; };
 		88E3AF6C1CB62BD700F1E775 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88AEBB131BADF48300923E82 /* JSQWebViewController.framework in Frameworks */,
+				88AEBB131BADF48300923E82 /* JSQWebViewControllerMod42.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,8 +64,8 @@
 		88AEBB091BADF48300923E82 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				88AEBB081BADF48300923E82 /* JSQWebViewController.framework */,
-				88AEBB121BADF48300923E82 /* JSQWebViewControllerTests.xctest */,
+				88AEBB081BADF48300923E82 /* JSQWebViewControllerMod42.framework */,
+				88AEBB121BADF48300923E82 /* JSQWebViewControllerMod42Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,9 +103,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		88AEBB071BADF48300923E82 /* JSQWebViewController */ = {
+		88AEBB071BADF48300923E82 /* JSQWebViewControllerMod42 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 88AEBB1C1BADF48300923E82 /* Build configuration list for PBXNativeTarget "JSQWebViewController" */;
+			buildConfigurationList = 88AEBB1C1BADF48300923E82 /* Build configuration list for PBXNativeTarget "JSQWebViewControllerMod42" */;
 			buildPhases = (
 				88AEBB031BADF48300923E82 /* Sources */,
 				88AEBB041BADF48300923E82 /* Frameworks */,
@@ -116,14 +116,14 @@
 			);
 			dependencies = (
 			);
-			name = JSQWebViewController;
+			name = JSQWebViewControllerMod42;
 			productName = JSQWebViewController;
-			productReference = 88AEBB081BADF48300923E82 /* JSQWebViewController.framework */;
+			productReference = 88AEBB081BADF48300923E82 /* JSQWebViewControllerMod42.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		88AEBB111BADF48300923E82 /* JSQWebViewControllerTests */ = {
+		88AEBB111BADF48300923E82 /* JSQWebViewControllerMod42Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 88AEBB1F1BADF48300923E82 /* Build configuration list for PBXNativeTarget "JSQWebViewControllerTests" */;
+			buildConfigurationList = 88AEBB1F1BADF48300923E82 /* Build configuration list for PBXNativeTarget "JSQWebViewControllerMod42Tests" */;
 			buildPhases = (
 				88AEBB0E1BADF48300923E82 /* Sources */,
 				88AEBB0F1BADF48300923E82 /* Frameworks */,
@@ -134,9 +134,9 @@
 			dependencies = (
 				88AEBB151BADF48300923E82 /* PBXTargetDependency */,
 			);
-			name = JSQWebViewControllerTests;
+			name = JSQWebViewControllerMod42Tests;
 			productName = JSQWebViewControllerTests;
-			productReference = 88AEBB121BADF48300923E82 /* JSQWebViewControllerTests.xctest */;
+			productReference = 88AEBB121BADF48300923E82 /* JSQWebViewControllerMod42Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -160,7 +160,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 88AEBB021BADF48300923E82 /* Build configuration list for PBXProject "JSQWebViewController" */;
+			buildConfigurationList = 88AEBB021BADF48300923E82 /* Build configuration list for PBXProject "JSQWebViewControllerMod42" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -172,8 +172,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				88AEBB071BADF48300923E82 /* JSQWebViewController */,
-				88AEBB111BADF48300923E82 /* JSQWebViewControllerTests */,
+				88AEBB071BADF48300923E82 /* JSQWebViewControllerMod42 */,
+				88AEBB111BADF48300923E82 /* JSQWebViewControllerMod42Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -217,7 +217,7 @@
 /* Begin PBXTargetDependency section */
 		88AEBB151BADF48300923E82 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 88AEBB071BADF48300923E82 /* JSQWebViewController */;
+			target = 88AEBB071BADF48300923E82 /* JSQWebViewControllerMod42 */;
 			targetProxy = 88AEBB141BADF48300923E82 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -399,7 +399,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		88AEBB021BADF48300923E82 /* Build configuration list for PBXProject "JSQWebViewController" */ = {
+		88AEBB021BADF48300923E82 /* Build configuration list for PBXProject "JSQWebViewControllerMod42" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				88AEBB1A1BADF48300923E82 /* Debug */,
@@ -408,7 +408,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		88AEBB1C1BADF48300923E82 /* Build configuration list for PBXNativeTarget "JSQWebViewController" */ = {
+		88AEBB1C1BADF48300923E82 /* Build configuration list for PBXNativeTarget "JSQWebViewControllerMod42" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				88AEBB1D1BADF48300923E82 /* Debug */,
@@ -417,7 +417,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		88AEBB1F1BADF48300923E82 /* Build configuration list for PBXNativeTarget "JSQWebViewControllerTests" */ = {
+		88AEBB1F1BADF48300923E82 /* Build configuration list for PBXNativeTarget "JSQWebViewControllerMod42Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				88AEBB201BADF48300923E82 /* Debug */,
