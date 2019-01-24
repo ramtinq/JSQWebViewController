@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-   s.name = 'JSQWebViewController'
+   s.name = 'JSQWebViewControllerMod42'
    s.version = '6.1'
    s.license = 'MIT'
 
